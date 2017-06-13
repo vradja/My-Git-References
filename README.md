@@ -12,7 +12,7 @@ pip install puresnmp --trusted-host pypi.python.org
 # Bridged network in VirtualBox - mac OSX host and Ubuntu Client
 - https://superuser.com/questions/152043/configuring-virtualbox-host-only-networking-osx-host-ubuntu-guest?rq=1
 ➜  ~ cat /etc/network/interfaces
-# interfaces(5) file used by ifup(8) and ifdown(8)
+#interfaces(5) file used by ifup(8) and ifdown(8)
 auto lo
 iface lo inet loopback
 
