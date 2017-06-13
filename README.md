@@ -78,3 +78,4 @@ snmpget -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103
 - http://www.net-snmp.org/docs/man/snmpusm.html
 snmpusm -u demo -l authPriv -a MD5 -x DES -A temp_password -X temp_password 192.168.56.103 passwd temp_password 12345678
 snmpusm -u bootstrap -l authPriv -a MD5 -x DES -A temp_password -X temp_password 192.168.56.101 create demo bootstrap
+snmpusm -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103 delete bootstrap
