@@ -54,3 +54,27 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 - https://forums.virtualbox.org/viewtopic.php?f=8&t=34396
 - https://superuser.com/questions/429405/how-can-i-get-virtualbox-to-run-with-a-hosts-only-adapter
 - https://superuser.com/questions/119732/how-to-do-networking-between-virtual-machines-in-virtualbox
+
+# Change password in SNMP client using snmpusm:
+- http://www.net-snmp.org/docs/man/snmpusm.html
+
+# SNMP commands tutorial
+- https://docs.oracle.com/cd/E19201-01/820-6413-13/SNMP_commands_reference_appendix.html
+snmpwalk -v 2c -c public 192.168.1.78 system
+snmpget -v 2c -c public 192.168.56.103 sysUpTime.0
+snmpget -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103 sysUpTime.0
+
+
+# SNMP setup tutorial:
+- https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-an-snmp-daemon-and-client-on-ubuntu-14-04#install-the-snmp-daemon-and-utilities
+- http://xmodulo.com/configure-snmpv3-ubuntu-centos-cisco.html
+- http://ghost-armsultan.rhcloud.com/install-and-configure-snmp-on-ubuntu-and-debian/
+- https://www.fineconnection.com/how_to_install_and_enable_snmpv3_on_a_linux_system_for_authentication_en_encryption_testing-2/
+- http://www.bauer-power.net/2012/10/how-to-configure-snmp-for-ubuntu-in-5.html#.WUAmRRPyvBJ
+- http://www.it-slav.net/blogs/2009/02/05/install-and-configure-snmp-on-ubuntu/
+
+
+# SNMP create/modify users
+- http://www.net-snmp.org/docs/man/snmpusm.html
+snmpusm -u demo -l authPriv -a MD5 -x DES -A temp_password -X temp_password 192.168.56.103 passwd temp_password 12345678
+snmpusm -u bootstrap -l authPriv -a MD5 -x DES -A temp_password -X temp_password 192.168.56.101 create demo bootstrap
