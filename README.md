@@ -100,3 +100,6 @@ snmpusm -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103
 - https://github.com/Valloric/YouCompleteMe
 - http://www.openvim.com/
 - https://vim-adventures.com/
+
+# SNMP Agent start and stop
+- https://www.ibm.com/support/knowledgecenter/en/ST9MBR_1.2.1/ltfs_ee_start_stop_snmp.html
