@@ -63,7 +63,9 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 # SNMP commands tutorial
 - https://docs.oracle.com/cd/E19201-01/820-6413-13/SNMP_commands_reference_appendix.html
 snmpwalk -v 2c -c public 192.168.1.78 system
+
 snmpget -v 2c -c public 192.168.56.103 sysUpTime.0
+
 snmpget -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103 sysUpTime.0
 
 
