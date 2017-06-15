@@ -7,6 +7,7 @@
 - http://www.marinamele.com/2014/07/install-python3-on-mac-os-x-and-use-virtualenv-and-virtualenvwrapper.html
 - http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/
 - https://stackoverflow.com/questions/12647266/where-is-virtualenvwrapper-sh-after-pip-install
+- https://stackoverflow.com/questions/33216679/usr-bin-python3-error-while-finding-spec-for-virtualenvwrapper-hook-loader
 
 # Pip install: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED]
 pip install puresnmp --trusted-host pypi.python.org
@@ -86,3 +87,15 @@ snmpusm -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103
 
 # vim python support
 - https://askubuntu.com/questions/775059/vim-python-support-on-ubuntu-16-04
+- https://github.com/python-mode/python-mode/issues/687
+- https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/#vim-extensions
+- https://github.com/amix/vimrc
+- https://github.com/amix/vimrc
+- https://github.com/j1z0/vim-config/blob/master/vimrc
+- https://github.com/python-mode/python-mode/issues/687
+
+# Vim tutorials
+- https://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses/5400978#5400978
+- https://github.com/Valloric/YouCompleteMe
+- http://www.openvim.com/
+- https://vim-adventures.com/
