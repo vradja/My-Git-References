@@ -5,6 +5,8 @@
 
 # Python 3 with virtual environment setup guide
 - http://www.marinamele.com/2014/07/install-python3-on-mac-os-x-and-use-virtualenv-and-virtualenvwrapper.html
+- http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/
+- https://stackoverflow.com/questions/12647266/where-is-virtualenvwrapper-sh-after-pip-install
 
 # Pip install: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED]
 pip install puresnmp --trusted-host pypi.python.org
