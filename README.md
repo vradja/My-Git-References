@@ -103,3 +103,6 @@ snmpusm -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103
 
 # SNMP Agent start and stop
 - https://www.ibm.com/support/knowledgecenter/en/ST9MBR_1.2.1/ltfs_ee_start_stop_snmp.html
+
+# Writing an SNMP Agent With a Custom MIB Using Pysnmp
+- http://www.nealc.com/blog/blog/2013/02/23/writing-an-snmp-agent-with-a-custom-mib-using-pysnmp/
