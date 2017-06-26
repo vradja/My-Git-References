@@ -109,3 +109,7 @@ snmpusm -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103
 
 # Make SNMP Scapy Flooding:
 - http://alibay.com.tr/approaching-danger-snmp-amplification-attacks/
+- http://www.nothink.org/misc/snmp_reflected.php
+- http://www.packetlevel.ch/html/scapy/scapychw.html
+- http://www.secdev.org/projects/scapy/doc/advanced_usage.html
+- http://www.nothink.org/misc/snmp_reflected.php
