@@ -106,3 +106,6 @@ snmpusm -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103
 
 # Writing an SNMP Agent With a Custom MIB Using Pysnmp
 - http://www.nealc.com/blog/blog/2013/02/23/writing-an-snmp-agent-with-a-custom-mib-using-pysnmp/
+
+# Make SNMP Scapy Flooding:
+- http://alibay.com.tr/approaching-danger-snmp-amplification-attacks/
