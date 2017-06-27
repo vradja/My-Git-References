@@ -117,3 +117,8 @@ snmpusm -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103
 # Tcpdump filters
 - http://biot.com/capstats/bpf.html
 - http://alumni.cs.ucr.edu/~marios/ethereal-tcpdump.pdf
+
+# Logstash Grok
+- http://grokdebug.herokuapp.com/
+- http://grokconstructor.appspot.com/do/automatic
+- https://github.com/kkos/oniguruma/blob/master/doc/RE
