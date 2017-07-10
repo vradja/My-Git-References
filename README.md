@@ -122,3 +122,7 @@ snmpusm -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103
 - http://grokdebug.herokuapp.com/
 - http://grokconstructor.appspot.com/do/automatic
 - https://github.com/kkos/oniguruma/blob/master/doc/RE
+
+# Login to AWS instance
+sudo ssh -i ~/.ssh/vishnu_honeyot_key_pair.pem ubuntu@34.212.187.81
+
