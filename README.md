@@ -124,5 +124,10 @@ snmpusm -u demo -l authPriv -a MD5 -x DES -A 12345678 -X 12345678 192.168.56.103
 - https://github.com/kkos/oniguruma/blob/master/doc/RE
 
 # Login to AWS instance
-sudo ssh -i ~/.ssh/vishnu_honeyot_key_pair.pem ubuntu@34.212.187.81
+honeypot: sudo ssh -i ~/.ssh/vishnu_honeyot_key_pair.pem ubuntu@52.34.224.249
+attacker: sudo ssh -i ~/.ssh/vishnu_honeyot_key_pair.pem ubuntu@54.187.231.235
+
+# AWS set security group to ping from anywhere.
+- https://stackoverflow.com/questions/21981796/cannot-ping-aws-ec2-instance
+- https://serverfault.com/questions/511738/why-cant-i-ping-my-freshly-set-up-amazon-web-service-ec2-instance
 
